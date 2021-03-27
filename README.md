@@ -76,11 +76,11 @@ href : 링크로 연결된 목적지 주소
 - 목적지에 id attribute를 사용해서 이름을 정해줌
 - href attribute에 #를 사용해서 목적지 이름을 입력
 
-[HTML Tables](https://www.w3schools.com/html/html_tables.asp)
+> [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
 
 - [Table Generator](https://www.tablesgenerator.com/html_tables)
 
-[HTML Lists](https://www.w3schools.com/html/html_lists.asp)
+> [HTML Lists](https://www.w3schools.com/html/html_lists.asp)
 
 1) 순서없는 목록(ul)
 2) 순서있는 목록(ol)
