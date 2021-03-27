@@ -49,6 +49,13 @@ HTML 속성(Attributes)
 1) HTML Element에 추가 정보를 제공
 2) name = "value" 형태로 사용
 
+웹 문서에서 표시할 수 있는 콘텐츠
+1) 텍스트
+2) 이미지
+3) 멀티미디어(비디오, 오디오)
+
+### 텍스트 콘텐츠 요소(Element)
+
 > [HTML Headings](https://www.w3schools.com/html/html_headings.asp)<br>
 > 
 제목 태그(Tag)
@@ -88,3 +95,34 @@ href : 링크로 연결된 목적지 주소
 
 ul, ol 목록에서 사용시 중첩(nested) 형태로 사용할 때 포함 관계를 주의
 - 포함하는 목록 항목에 작은 목록 전체가 포함됨.
+
+### 이미지 콘텐츠 요소
+
+[HTML Images](https://www.w3schools.com/html/html_images.asp)
+
+1) src attribute : 가져올 이미지 파일 위치 정보
+2) alt(alternative) attribute : 대체 텍스트
+
+### 멀티미디어 콘텐츠 요소
+[HTML Video](https://www.w3schools.com/html/html5_video.asp)
+
+attribute의 형태
+1) name = "value"
+2) name만 사용
+
+video 태그의 attribute
+1) controls
+2) autoplay
+3) muted (* 값을 넣을때는 mute=1 / 값 없이 쓸때는 muted => <strong>왜지?</strong>)
+4) loop
+
+[HTML YouTube Videos]
+
+Youtube의 매개변수
+1) controls => youtube_url/VIDEO_ID?controls=1
+2) autoplay => youtube_url/VIDEO_ID?autoplay=1
+3) mute => youtube_url/VIDEO_ID?mute=1
+4) loop => youtube_url/VIDEO_ID?loop=1<b>&playlist=VIDEO_ID</b>
+
+여러 매개변수 동시 사용
+youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1 (& : ampersand)
