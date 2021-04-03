@@ -126,3 +126,20 @@ Youtube의 매개변수
 
 여러 매개변수 동시 사용
 youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1 (& : ampersand)
+
+
+### HTML5 Content Model
+: Sectioning Contents
+=> Semantic Element
+
+> [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+ 
+1) 특정 의미를 부여해준 Container 요소
+2) 레이아웃 구성할 때 각각의 영역을 구분하기 위해 사용
+
+참고링크
+
+- [Can I use](https://caniuse.com/)
+- [Photopea](https://www.photopea.com/)
+- [Website Template](https://freebiesbug.com/psd-freebies/piroll-design-template-agencypersonal-portfolio/)
+- 
