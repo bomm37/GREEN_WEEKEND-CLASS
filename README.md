@@ -166,3 +166,35 @@ youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1 (& : ampersand)
 - 포함관계
   - block : block, inline, contents(text) 모두 포함할 수 있음
   - inline : inline, contents(text) 만 포함 가능
+  - 예외 : inline 요소인 a 태그는 모두 포함 가능
+
+### 폼 요소
+- 사용자 입력을 받을 수 있는 요소
+> [HTML Form Elemnts]()
+
+> 텍스트 입력 폼 요소
+
+- <input type="text" /> : 한줄 입력
+- <textarea></textarea> : 여러 줄 입력
+- <input type="password" /> : 한 줄 입력, 입력 내용이 기호로 표시
+
+> 파일 업로드 폼 요소
+
+- <input type="file" />
+
+> 선택 폼 요소
+
+- <input type="radio" />
+- <input type="checkbox" />
+- <select>
+    <option>항목</option> : 목록 항목
+  </select>
+  
+> 실행 폼 요소
+
+- <input type="button" />
+- <input type="reset" />
+- <input type="submit" />
+- <button type="button"></button>
+- <button type="reset"></button>
+- <button type="submit"></button>
