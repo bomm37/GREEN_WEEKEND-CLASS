@@ -199,3 +199,276 @@ youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1 (& : ampersand)
 <button type="reset"></button>
 <button type="submit"></button>
 ```
+
+- id는 하나의 HTML 팡리(문서)에서 중복 사용될 수 없음.
+- class 하나의 HTML 파일(문서)에서 중복 사용할 수 있음.
+
+> 표기법(여러단어가 사용될 경우 단어를 구분)
+- gnb-list-item : kebab case
+- gnb_list_list : snake case
+- gnbListItem : camel case (자바스크립트에서 주로 사용, 서버개발자가 주로 사용)
+- GnbListItem : pascal case
+
+- 파일, 폴더 이름 : snake
+- id, class : kebab
+- 자바스크립트 변수, 함수 : camel
+
+### 박스 가로 배치
+
+> float
+
+- left, right 속성값으로 가로배치
+- 부모요소를 기준으로 왼쪽 배치, 오른쪽 배치
+(division)
+
+160
+
+  - span
+
+161
+
+
+
+162
+
+### Block/Inline Element
+
+163
+
+
+
+164
+
+- block " 새 줄(줄바꿈)에서 표시
+
+165
+
+- inline : 한 줄에 나란히 표시
+
+166
+
+- 포함관계
+
+167
+
+  - block : block, inline, contents(text) 모두 포함할 수 있음
+
+168
+
+  - inline : inline, contents(text) 만 포함 가능
+
+169
+
+  - 예외 : inline 요소인 a 태그는 모두 포함 가능
+
+170
+
+
+
+171
+
+### 폼 요소
+
+172
+
+- 사용자 입력을 받을 수 있는 요소
+
+173
+
+> [HTML Form Elemnts]()
+
+174
+
+
+
+175
+
+> 텍스트 입력 폼 요소
+
+176
+
+```
+
+177
+
+<input type="text" /> : 한줄 입력
+
+178
+
+<textarea></textarea> : 여러 줄 입력
+
+179
+
+<input type="password" /> : 한 줄 입력, 입력 내용이 기호로 표시
+
+180
+
+```
+
+181
+
+> 파일 업로드 폼 요소
+
+182
+
+
+
+183
+
+- <input type="file" />
+
+184
+
+
+
+185
+
+> 선택 폼 요소
+
+186
+
+```
+
+187
+
+<input type="radio" />
+
+188
+
+<input type="checkbox" />
+
+189
+
+<select>
+
+190
+
+    <option>항목</option> : 목록 항목
+
+191
+
+  </select>
+
+192
+
+```  
+
+193
+
+> 실행 폼 요소
+
+194
+
+```
+
+195
+
+<input type="button" />
+
+196
+
+<input type="reset" />
+
+197
+
+<input type="submit" />
+
+198
+
+<button type="button"></button>
+
+199
+
+<button type="reset"></button>
+
+200
+
+<button type="submit"></button>
+
+201
+
+```
+
+202
+
+
+
+203
+
+- id는 하나의 HTML 팡리(문서)에서 중복 사용될 수 없음.
+
+204
+
+- class 하나의 HTML 파일(문서)에서 중복 사용할 수 있음.
+
+205
+
+
+
+206
+
+> 표기법(여러단어가 사용될 경우 단어를 구분)
+
+207
+
+- gnb-list-item : kebab case
+
+208
+
+- gnb_list_list : snake case
+
+209
+
+- gnbListItem : camel case (자바스크립트에서 주로 사용, 서버개발자가 주로 사용)
+
+210
+
+- GnbListItem : pascal case
+
+211
+
+
+
+212
+
+- 파일, 폴더 이름 : snake
+
+213
+
+- id, class : kebab
+
+214
+
+- 자바스크립트 변수, 함수 : camel
+
+215
+
+
+
+216
+
+### 박스 가로 배치
+
+217
+
+
+
+218
+
+> float
+
+219
+
+
+
+220
+
+- left, right 속성값으로 가로배치
+
+221
+
+- 부모요소를 기준으로 왼쪽 배치, 오른쪽 배치
+
+222
+
+- right를 값을 사용하면 박스 순서가 반대로 배치- right를 값을 사용하면 박스 순서가 반대로 배치
