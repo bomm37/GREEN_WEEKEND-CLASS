@@ -472,3 +472,10 @@ youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1 (& : ampersand)
 222
 
 - right를 값을 사용하면 박스 순서가 반대로 배치- right를 값을 사용하면 박스 순서가 반대로 배치
+
+
+
+
+
+
+https://developer.mozilla.org/ko/docs/Web/API/EventTarget/addEventListener
